@@ -1,9 +1,15 @@
 # Ignorar el entorno virtual de Python
 /venv/
 
-# Ignorar carpetas de datos de entrada y salida
-/input/
-/output/
+# Ignorar todo dentro de la carpeta input...
+input/*
+# ...excepto el archivo .gitkeep para mantener la estructura
+!input/.gitkeep
+
+# Ignorar todo dentro de la carpeta output...
+output/*
+# ...excepto el archivo .gitkeep para mantener la estructura
+!output/.gitkeep
 
 # Ignorar carpetas de caché de Python
 __pycache__/
