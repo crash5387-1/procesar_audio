@@ -1,0 +1,13 @@
+# Ignorar el entorno virtual de Python
+/venv/
+
+# Ignorar carpetas de datos de entrada y salida
+/input/
+/output/
+
+# Ignorar carpetas de caché de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de configuración de VS Code
+.vscode/

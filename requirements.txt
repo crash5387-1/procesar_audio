@@ -1,0 +1,5 @@
+# Contenido para requirements.txt
+pydub
+noisereduce
+scipy
+torch
