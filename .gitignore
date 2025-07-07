@@ -3,6 +3,9 @@
 
 # Ignorar todo dentro de la carpeta input...
 input/*
+# Ignorar todo dentro de la carpeta temp...
+temp/*
+
 # ...excepto el archivo .gitkeep para mantener la estructura
 !input/.gitkeep
 

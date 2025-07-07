@@ -75,7 +75,7 @@ def main():
         ruta_completa_input = os.path.join(carpeta_input, nombre_archivo)
         
         if os.path.isfile(ruta_completa_input):
-            nombre_archivo_salida = f"audio_{contador_archivos_guardados:04d}.wav"
+            nombre_archivo_salida = f"audio_{contador_archivos_guardados:04d}_2.wav"
             ruta_completa_output = os.path.join(carpeta_output, nombre_archivo_salida)
 
             if procesar_audio(ruta_completa_input, ruta_completa_output):
